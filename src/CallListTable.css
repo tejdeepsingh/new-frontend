@@ -1,0 +1,89 @@
+/* Container takes full width */
+.table-container {
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+    /* background-color: #eaecf0; */
+  }
+
+  /* Heading */
+  .table-container h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+
+  /* Base DataGrid Styles */
+  .MuiDataGrid-root {
+    background-color: white;
+    border: 1px solid #d0d7de;
+    border-radius: 12px;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  }
+
+  /* Column headers */
+  .MuiDataGrid-columnHeaders {
+    background-color: #f0f4f8;
+    color: #34495e;
+    font-weight: 600;
+    font-size: 13px;
+    border-bottom: 1px solid #d0d7de;
+  }
+
+  /* Alternate row colors */
+  .MuiDataGrid-row:nth-of-type(even) {
+    background-color: #deebf1;
+  }
+
+  .MuiDataGrid-row:nth-of-type(odd) {
+    background-color: #ffffff;
+  }
+
+  /* Row hover */
+  .MuiDataGrid-row:hover {
+    background-color: #eaf1f9;
+  }
+
+  /* Pagination Styling */
+  .MuiTablePagination-root {
+    color: #2c3e50;
+    font-weight: 500;
+  }
+
+  .MuiPaginationItem-root.Mui-selected {
+    background-color: #2ecc71 !important;
+    color: white !important;
+  }
+
+  .MuiPaginationItem-root {
+    color: #2c3e50;
+  }
+
+  /* Optional: Remove focus outlines for cleaner feel */
+  .MuiDataGrid-cell:focus,
+  .MuiDataGrid-columnHeader:focus {
+    outline: none;
+  }
+  .match-circle-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #2c3e50;
+  }
+
+  .match-ring {
+    transform: rotate(-90deg);
+  }
+
+  .match-ring-bg,
+  .match-ring-fg {
+    transition: stroke-dashoffset 0.4s ease;
+  }
+
+ 
