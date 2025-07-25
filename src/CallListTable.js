@@ -107,14 +107,24 @@ useEffect(() => {
 
 
   return (
-    <div className="table-container">
+     <div className="table-container">
+    {/* Banner */}
+    <div className="banner">
+  <img src="/logo.png" alt="B Bank Logo" className="banner-logo" />
+  <h1 className="banner-title">B BANK</h1>
+  <div className="banner-tagline">
+    Secure Voices . Smarter Decisions!
+  </div>
+</div>
+
+
       <h3>📋 Voice Recognition Dashboard</h3>
 <DataGrid
   rows={rows}
   columns={columns}
   pageSize={10}
   rowsPerPageOptions={[10]}
-  style={{ height: 600, width: '100%' }} // fixed height
+  style={{ height: 800, width: '100%' }} // fixed height
 />
     </div>
   );

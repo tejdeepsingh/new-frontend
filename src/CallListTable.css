@@ -86,4 +86,53 @@
     transition: stroke-dashoffset 0.4s ease;
   }
 
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: center; /* center the title horizontally */
+  align-items: center;     /* vertically center both logo and text */
+  padding: 4px 20px;
+  height: 65px;            /* fixed height for vertical alignment */
+  background-color: #2c3e50; /* example background, keep your existing style */
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.banner-logo {
+  position: absolute;
+  left: 10px;
+  height: 55px;
+  width: 55px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.banner-title {
+  margin: 0;
+  font-size: 45px;  /* adjust font size as needed */
+  font-weight: bold;
+  text-align: center;
+  width: 100%;      /* makes sure text can center properly */
+}
+
+/* New tagline style */
+.banner-tagline {
+  position: absolute;
+  right: 20px;
+  top: 55%;       
+  transform: translateY(-50%);
+  bottom: 4px;
+  right: 20px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #f9f8f5; /* golden yellow for contrast */
+  font-style: bold;
+  white-space: nowrap; /* keep on one line */
+}
+
+
+
+
  
